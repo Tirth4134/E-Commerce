@@ -12,14 +12,14 @@ export default function ProductCard({product}: ProductCardProps){
      1000 * 60 * 60 *24 * 7;
       return(
         <Link
-        href={"/products" + product.id}
+        href={"/products/" + product.id}
         className="card w-full bg-base-100 hover:shadow-xl transition-shadow">
             <figure>
                 <Image
                  src={product.imageUrl} 
                  alt={product.name}
                  width={800}
-                 height={700}
+                 height={400}
                  className="h-48 object-cover"
                  />
             </figure>
