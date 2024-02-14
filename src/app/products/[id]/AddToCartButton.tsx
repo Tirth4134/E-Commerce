@@ -1,6 +1,5 @@
 "use client";
 
-import { Span } from "next/dist/trace";
 import { useState, useTransition } from "react";
 
 interface AddToCartButtonProps{
